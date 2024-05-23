@@ -1,0 +1,112 @@
+{
+  "databases": [
+    {
+      "id": "1",
+      "name": "Database 1",
+      "url": "https://db1.example.com",
+      "username": "user1",
+      "password": "password1",
+      "type": "Snowflake"
+    },
+    {
+      "id": "2",
+      "name": "Database 2",
+      "url": "https://db2.example.com",
+      "username": "user2",
+      "password": "password2",
+      "type": "Trino"
+    },
+    {
+      "id": "3",
+      "name": "Database 3",
+      "url": "https://db3.example.com",
+      "username": "user3",
+      "password": "password3",
+      "type": "MySQL"
+    },
+    {
+      "id": "e930",
+      "name": "name",
+      "url": "https://www.x.com",
+      "username": "user",
+      "password": "#G71Cxhd",
+      "type": "Snowflake"
+    }
+  ],
+  "tables": [
+    {
+      "id": "1",
+      "databaseId": 1,
+      "name": "Table 1",
+      "description": "This is table 1."
+    },
+    {
+      "id": "2",
+      "databaseId": 2,
+      "name": "Table 2",
+      "description": "This is table 2."
+    },
+    {
+      "id": "3",
+      "databaseId": 3,
+      "name": "Table 3",
+      "description": "This is table 3."
+    },
+    {
+      "id": "5803",
+      "databaseId": "4",
+      "name": "name",
+      "description": "desc"
+    },
+    {
+      "id": "3a53",
+      "databaseId": "4",
+      "name": "name",
+      "description": "desc"
+    }
+  ],
+  "columns": [
+    {
+      "id": "1",
+      "tableId": 1,
+      "name": "Column 1",
+      "dataType": "int",
+      "description": "This is column 1."
+    },
+    {
+      "id": "2",
+      "tableId": 2,
+      "name": "Column 2",
+      "dataType": "int",
+      "description": "This is column 2."
+    },
+    {
+      "id": "3",
+      "tableId": 3,
+      "name": "Column 3",
+      "dataType": "int",
+      "description": "This is column 3."
+    },
+    {
+      "id": "a5fa",
+      "tableId": "5",
+      "name": "name",
+      "dataType": "int",
+      "description": "desc"
+    },
+    {
+      "id": "989e",
+      "tableId": "6",
+      "name": "name",
+      "dataType": "int",
+      "description": "desc"
+    },
+    {
+      "id": "a100",
+      "tableId": "7",
+      "name": "name",
+      "dataType": "int",
+      "description": "desc"
+    }
+  ]
+}
